@@ -1,5 +1,5 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "srdreamtimesV3.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -29,7 +29,7 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 4.0,
+    "default_cfg_scale": 1.5,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -44,14 +44,14 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+        "srdreamtimesV3.safetensors": "https://huggingface.co/rafiislam/srdreamtimeslightning/resolve/main/srdreamtimesV3.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
     },
     "previous_default_models": [
-        "juggernautXL_version8Rundiffusion.safetensors",
+        "srdreamtimesV3.safetensors",
         "juggernautXL_version7Rundiffusion.safetensors",
         "juggernautXL_v7Rundiffusion.safetensors",
         "juggernautXL_version6Rundiffusion.safetensors",
