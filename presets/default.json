@@ -1,11 +1,11 @@
 {
-    "default_model": "srdreamtimesV3.safetensors",
+    "default_model": "RakibuniverseV4.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
           [
             true,
-            "None",
+            "sdxl_lightning_8step_lora.safetensors",
             1.0
         ],
         [
@@ -35,23 +35,21 @@
     "default_scheduler": "sgm_uniform",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "plastic, deformed, blurry, bad anatomy, bad eyes, crossed eyes, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, mutated hands and fingers, out of frame, blender, doll, cropped, low-res, close-up, poorly-drawn face, out of frame double, two heads, blurred, ugly, disfigured, too many fingers, deformed, repetitive, black and white, grainy, extra limbs, bad anatomy,text, watermark,ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude, ugly, deformed, noisy, blurry, distorted, grainy, nudity, nude,ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, 6 fingers, bad hands, bad fingers,too many digits,(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3)",
     "default_styles": [
-        "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus V2"
     ],
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "srdreamtimesV3.safetensors": "https://huggingface.co/rafiislam/srdreamtimeslightning/resolve/main/srdreamtimesV3.safetensors"
+        "RakibuniverseV4.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sdxl_lightning_8step_lora.safetensors": "https://huggingface.co/rafiislam/Lora/resolve/main/sdxl_lightning_8step_lora.safetensors"
     },
     "previous_default_models": [
-        "srdreamtimesV3.safetensors",
+        "RakibuniverseV4.safetensors",
         "juggernautXL_version7Rundiffusion.safetensors",
         "juggernautXL_v7Rundiffusion.safetensors",
         "juggernautXL_version6Rundiffusion.safetensors",
